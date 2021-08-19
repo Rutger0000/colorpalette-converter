@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setup (
     name='colorpaletteconverter',
     version='0.01',
-    description='Make MacOS Color palette from Python.',
+    description='Make a MacOS Color palette from Python',
     py_modules=["colorpalette_generator"],
     package_dir={'': 'src'},
     classifiers=[
