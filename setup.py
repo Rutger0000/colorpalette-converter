@@ -5,10 +5,13 @@ with open("README.md", "r") as fh:
 
 setup (
     name='colorpaletteconverter',
-    version='0.01',
+    version='0.02',
     description='Make a MacOS Color palette from Python',
-    py_modules=["colorpalette_generator"],
+    py_modules=["colorpaletteconverter"],
     package_dir={'': 'src'},
+    author="Rutger Berns",
+    author_email="rutgerb0000@gmail.com",
+    url="https://github.com/Rutger0000/colorpalette-converter",
     classifiers=[
         "Environment :: MacOS X",
         "Environment :: MacOS X :: Cocoa",
@@ -23,4 +26,9 @@ setup (
     install_requires=[
         "pyobjc ~= 7.3",
     ],
+    extras_require = {
+        "dev": [
+            "pytest>=5.2"
+        ]
+    }
 )
