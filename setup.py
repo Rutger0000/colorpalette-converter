@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup (
     name='colorpaletteconverter',
-    version='0.02',
+    version='0.2.1',
     description='Make a MacOS Color palette from Python',
     py_modules=["colorpaletteconverter"],
     package_dir={'': 'src'},
@@ -24,7 +24,8 @@ setup (
     long_description=long_description,
     long_description_content_type="text/markdown",
     install_requires=[
-        "pyobjc ~= 7.3",
+        "pyobjc-core ~= 7.3",
+        "pyobjc-framework-Cocoa ~= 7.3"
     ],
     extras_require = {
         "dev": [

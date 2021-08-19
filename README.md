@@ -1,10 +1,12 @@
 ## Usage
 
+
+
 ```python
-import colorpalettegenerator as cg
+import colorpaletteconverter as cv
 
 # Create the palette, named "MyPythonPalette"
-mypalette = cg.Palette("MyPythonPalette")
+mypalette = cv.Palette("MyPythonPalette")
 
 # Add a color using a key e.g. "White" and color described by (r, g, b, a)
 mypalette.add_color((1,1,1,1), "White")

@@ -1,8 +1,8 @@
-import colorpaletteconverter as cg
+import colorpaletteconverter as cv
 
 def test_colorpaletteconverter(tmp_path):
     # Create palette
-    palette = cg.Palette("MyPalette")
+    palette = cv.Palette("MyPalette")
 
     # Add colors in (r, g, b, a)
     palette.add_color((1,0,0,1), "Red")
