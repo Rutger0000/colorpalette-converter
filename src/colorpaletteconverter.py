@@ -19,7 +19,7 @@ class Palette:
             the name of the color
         
         """
-        color = NSColor.colorWithRed_green_blue_alpha_(*color)
+        color = NSColor.colorWithRed_green_blue_alpha_(*tuple(color))
         self.colors.setColor_forKey_(color, key)
         
     def save(self, path: str = None):

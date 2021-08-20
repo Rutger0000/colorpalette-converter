@@ -1,6 +1,10 @@
+# ColorpaletteConverter
+
+Export colorpalettes in Python to the MacOS color helper. 
+
+![MacOS color helper](assets/output.png)
+
 ## Usage
-
-
 
 ```python
 import colorpaletteconverter as cv
@@ -18,3 +22,15 @@ mypalette.add_color((0,0,1,0.5), "Translucent blue")
 # Save it to the default location. This will make it visible in the MacOS color palette.
 mypalette.save()
 ```
+
+More examples at [examples]()
+
+## Use cases
+This package helps to convert color palettes from for example Matplotlib or Seaborn, or your custom generated color palettes to the MacOS Color helper.
+
+- Matplotlib color palettes: https://matplotlib.org/stable/tutorials/colors/colormaps.html
+- Seaborn color palettes: https://seaborn.pydata.org/tutorial/color_palettes.html
+
+The colors can be used in application like Apple Pages, Apple Keynote, Apple Numbers, Apple Final Cut Pro X, Microsoft Word, Microsoft Powerpoint and more.
+
+![Example in Apple Pages](assets/PagesViridisExample.png)
