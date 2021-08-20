@@ -4,6 +4,12 @@ Export colorpalettes in Python to the MacOS color helper.
 
 ![MacOS color helper](assets/output.png)
 
+## Install
+
+```
+pip install colorpaletteconverter
+```
+Note: MacOS only
 ## Usage
 
 ```python
