@@ -21,9 +21,12 @@ mypalette.add_color((0,0,1,0.5), "Translucent blue")
 
 # Save it to the default location. This will make it visible in the MacOS color palette.
 mypalette.save()
+
+# To save it to an alternative location
+mypalette.save("mypalette.clr")
 ```
 
-More examples at [examples]()
+More examples in the [tutorial notebook](https://github.com/Rutger0000/colorpalette-converter/blob/master/Tutorial.ipynb).
 
 ## Use cases
 This package helps to convert color palettes from for example Matplotlib or Seaborn, or your custom generated color palettes to the MacOS Color helper.
