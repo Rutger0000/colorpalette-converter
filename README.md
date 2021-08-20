@@ -37,3 +37,6 @@ This package helps to convert color palettes from for example Matplotlib or Seab
 The colors can be used in application like Apple Pages, Apple Keynote, Apple Numbers, Apple Final Cut Pro X, Microsoft Word, Microsoft Powerpoint and more.
 
 ![Example in Apple Pages](assets/PagesViridisExample.png)
+
+## Used packages
+- [PyObjC](https://github.com/ronaldoussoren/pyobjc) 
